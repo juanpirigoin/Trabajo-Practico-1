@@ -77,6 +77,10 @@ i {
     width: 100%;
 }
 
+section {
+    margin-bottom: 30px;
+}
+
 h1, h2, p {
     color: white;
     margin-bottom: 40px;
@@ -98,7 +102,7 @@ h2 {
     height: 400px;
     background-color:rgba(115, 34, 190, 0.164);
     margin: 0 30px ;
-    padding: 20px;
+    padding: 30px;
     border-radius: 20px;
 }
 
@@ -110,7 +114,20 @@ h2 {
     color: black;
 }
 
+.info-novedades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.info-novedades button {
+    align-self: center;
+    font-size: 18px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    background-color: crimson;
+    border: none;
+}
 .caveat-brush-regular {
   font-family: "Caveat Brush", cursive;
   font-weight: 400;
