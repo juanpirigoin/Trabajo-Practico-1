@@ -1,51 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
-   background-color: rgb(0, 0, 0);
+   /* background-color: rgb(0, 0, 0); */
+   background-image: url('Gemini_Generated_Image_rf7kjvrf7kjvrf7k.png');
+   background-color: rgba(0, 0, 0, 0.842);
 }
 
 nav {
-    display: flex;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.1);
-    justify-content: space-between;
+    display: flex;   
+    justify-content: space-between; 
+    padding: 8px 20px;
+    background-color: rgba(0, 0, 0, 0.637);
 }
 
-nav ul, nav ul li {
-  display: inline-block;
-  color: white;  
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-nav ul li 
+.navegador, .menu , .iconos
 {
-    
-    text-align: center;
+    display: flex;
+    /* justify-content: space-between; si lo pongo no cambia nada*/
+    gap: 20px;
+    align-items: center;
+
+} 
+
+nav ul li {
+  display: inline;
+  color: white;  
+  text-align: center;
+  padding: 3px 6px;
 }
 
-nav ul li:hover {
-    border-radius: 8px;
-    background-color: blue;
-}
-
-
-nav ul li a {
-    
+nav ul li a {    
     text-decoration: none;
     color: white;
     text-align: center;
 }
 
-nav div{
-    display: flex;
-    align-items: center;
-}
-
-nav div i {
-    margin-right: 20px;
-}
-#banner {
-    width: 100%;
+ nav div a {    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+ }
+nav ul li:hover {
+    border-radius: 10px;
+    background-color: blue;
 }
 
 i {
@@ -64,36 +67,73 @@ i {
     color: violet;
 }
 
-h1 {
-    color:white;
-    text-align: center;
+.login {
+    background-color: rgb(163, 106, 196);
+    border-radius: 10px;
+   padding: 3px 6px;
 }
 
-p {
-    color:white;
-    text-align: justify;
-    max-width: 80%;
-    margin: auto;
+#banner {
+    width: 100%;
+}
+
+h1, h2, p {
+    color: white;
+    margin-bottom: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
 }
 
 h2 {
-    color: white;
+    font-size: 30px;
 }
 
-.miembros {
-    display: inline-block; 
-    width: 200px;
-    height: 300px;
-    background-color: aqua;  
-    margin: 10px; 
+.contenedor-novedades {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    height: 400px;
+    background-color:rgba(115, 34, 190, 0.164);
+    margin: 0 30px ;
+    padding: 20px;
+    border-radius: 20px;
 }
 
-.videos {
-    display: inline-block; 
-     width: 300px;
-    height: 300px;
+.contenedor-novedades img {
+    border-radius: 15px;
 }
-.contenedor-miembros, .contenedor {
+
+.contenedor-novedades h1 {
+    color: black;
+}
+
+
+.caveat-brush-regular {
+  font-family: "Caveat Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.contenedor-videos {
     display: flex;
     justify-content: space-evenly;
+    padding: 0 30px;
+    gap: 30px;
+}
+
+.video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+} 
+
+.video iframe {
+   width: 100%;
+   height: 100%;
+   border-radius: 30px;
+   box-shadow: 5px 5px 10px #a7a7cf;
+
 }
