@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nosotros</title>
-    <link rel="stylesheet" href="..\css\style-nosotros.css" />
+    <link rel="stylesheet" href="..\css\style-general.css" />
     <script
       src="https://kit.fontawesome.com/ef88cf4afb.js"
       crossorigin="anonymous"
@@ -13,20 +13,21 @@
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="">Videos</a></li>
+        <ul class="navegador menu caveat-brush-regular">
+          <li><a href="inicio.html">Inicio</a></li>
+          <li><a href="">Entradas</a></li>
           <li><a href="">Productos</a></li>
-          <li><a href="">Nosotros</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
           <li><a href="">Contacto</a></li>
         </ul>
-        <div>
+        <div class="navegador iconos">
           <a
             href="https://open.spotify.com/show/5LdAXU1UaaGK2PD6yOXxMR?si=804124c8c71548db"
             ><i class="fa-brands fa-spotify"></i
           ></a>
           <i class="fa-brands fa-youtube"></i>
           <i class="fa-brands fa-instagram"></i>
+          <div class="login"><a href="">Ingresar</a></div>
         </div>
       </nav>
     </header>
@@ -37,8 +38,8 @@
         alt="banner-aislados"
       />
       <div>
-        <h1>AISLADOS EL PODCAST</h1>
-        <p>
+        <h1 class="caveat-brush-regular">AISLADOS EL PODCAST</h1>
+        <p class="caveat-brush-regular">
           Aislados, el podcast nació en plena cuarentena de 2020, cuando cuatro
           comediantes decidieron que si el encierro iba a ser eterno, al menos
           había que reírse. Así se juntaron Lucas Lauriente, Luciano Mellera,
@@ -52,23 +53,89 @@
           inmigrante venezolano, que encontró en Argentina un escenario y en el
           podcast un refugio para sus ocurrencias. Lo que empezó como un
           experimento casero se convirtió en un fenómeno: pasaron de grabar
-          aislados en sus casas a llenar teatros como el Gran Rex y el Luna
+          <!-- aislados en sus casas a llenar teatros como el Gran Rex y el Luna
           Park. El secreto está en la química entre ellos, en esa capacidad de
           reírse de todo —y de ellos mismos— sin filtros ni solemnidad. En
           definitiva, Aislados es un podcast de comedia donde la risa es el
           pasaporte, la improvisación es la regla y el conocimiento… un detalle
           menor. Porque acá se habla de todo, se opina sin saber y se disfruta
-          como si estuvieras sentado en la mesa con ellos.
+          como si estuvieras sentado en la mesa con ellos. -->
         </p>
 
-        <h2>Miembros del podcast</h2>
-        <div class="contenedor-miembros">
-          <div class="miembros">luciano</div>
-          <div class="miembros">lucas</div>
-          <div class="miembros">nicolas</div>
-          <div class="miembros">nanutria</div>
+        <h2 class="caveat-brush-regular">MIEMBROS DEL PODCAST</h2>
+        <div class="contenedor-miembros caveat-brush-regular">
+          <div>
+            <img src="../imagenes/luciano.jpg" alt="foto luciano" />
+            <div>
+              <h3>LUCIANO MELLERA</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
+                placeat dolores quod et soluta deserunt maxime optio nobis
+                distinctio! Dignissimos tempore quia blanditiis voluptas sunt
+                corporis necessitatibus pariatur illum eum!
+              </p>
+            </div>
+          </div>
+          <div>            
+            <div>
+              <h3>LUCAS LAURIENTE</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
+                placeat dolores quod et soluta deserunt maxime optio nobis
+                distinctio! Dignissimos tempore quia blanditiis voluptas sunt
+                corporis necessitatibus pariatur illum eum!
+              </p>
+            </div>
+            <img src="../imagenes/lucas.jpg" alt="foto lucas" />
+          </div>
+          <div>
+            <img src="../imagenes/nicolas.jpg" alt="foto luciano" />
+            <div>
+              <h3>NICOLAS DE TRACY</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
+                placeat dolores quod et soluta deserunt maxime optio nobis
+                distinctio! Dignissimos tempore quia blanditiis voluptas sunt
+                corporis necessitatibus pariatur illum eum!
+              </p>
+            </div>
+          </div>  
+          <div>            
+            <div>
+              <h3>VICTOR MEDINA (NANUTRIA)</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
+                placeat dolores quod et soluta deserunt maxime optio nobis
+                distinctio! Dignissimos tempore quia blanditiis voluptas sunt
+                corporis necessitatibus pariatur illum eum!
+              </p>
+            </div>
+            <img src="../imagenes/nanutria.jpg" alt="foto lucas" />
+          </div>
         </div>
       </div>
     </main>
   </body>
+  <footer>
+    <div>
+      <div>
+        <img src="../imagenes/logo.jpg" alt="logo" />
+      </div>
+      <div class="iconos">
+        <a
+          href="https://open.spotify.com/show/5LdAXU1UaaGK2PD6yOXxMR?si=804124c8c71548db"
+          ><i class="fa-brands fa-spotify"></i
+        ></a>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <div></div>
+    </div>
+    <div class="links">
+      <p>
+        <a href="">Aviso legal</a> | <a href="">Política de privacidad</a> |
+        <a href="">Términos y condiciones</a>
+      </p>
+    </div>
+  </footer>
 </html>

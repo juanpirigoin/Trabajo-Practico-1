@@ -90,6 +90,7 @@ section {
 h1, h2, p {
     color: white;
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 h1 {
@@ -111,6 +112,7 @@ h2 {
     margin: 0 30px ;
     padding: 30px;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 .contenedor-novedades img {
@@ -160,4 +162,39 @@ h2 {
 
 .contenedor-videos div iframe:hover {
         transform: scale(1.05);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 12px;
+    margin-top: 40px;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+footer div img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+footer div:last-child {
+    justify-content: center;
+}
+
+.links {
+    margin-left: 60px;
+}
+
+.links a {
+     text-decoration: none;
+    color: white;
+}
+
+.links p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
