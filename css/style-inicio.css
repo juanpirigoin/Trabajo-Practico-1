@@ -74,9 +74,13 @@ i {
 }
 
 .login {
-    background-color: rgb(163, 106, 196);
+    
+    background-color: rgb(49, 60, 219);
     border-radius: 10px;
-   padding: 3px 6px;
+    padding: 3px 10px;
+}
+.login a {
+    color: white;
 }
 
 #banner {
