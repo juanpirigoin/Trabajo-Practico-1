@@ -27,30 +27,32 @@
           ></a>
           <i class="fa-brands fa-youtube"></i>
           <i class="fa-brands fa-instagram"></i>
-          <div class="login"><a href="">Ingresar</a></div>
+          <div class="login">
+            <a href="" class="caveat-brush-regular">Ingresar</a>
+          </div>
         </div>
       </nav>
     </header>
     <main>
-      <img
-        id="banner"
-        src="..\imagenes\asilados banner.jpg"
-        alt="banner-aislados"
-      />
-      <h1 class="caveat-brush-regular">CONTACTANOS</h1>
-      <form action="">
-        <div class="formulario caveat-brush-regular">
-          <label for="nombre">Nombre</label>
-          <input type="text" name="nombre" id="nombre" placeholder="Juan Perez" required/>
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" placeholder="juanperz@mail.com" required/>
-          <label for="asunto">Asunto</label>
-          <input type="text" name="asunto" id="asunto" required/>
-          <label for="mensaje">Mensaje</label>
-          <textarea name="mensaje" id="mensaje" rows="8" cols="40" required></textarea>
-          <button type="submit" class="caveat-brush-regular">Enviar</button>
-        </div>
+      <div class="contenedor-fechas">
+        <img src="..\imagenes\Fechas entradas.png" alt="fechas de entradas" />
+      </div>
+      
+
+      <form class="formulario caveat-brush-regular" action="">
+        <h2 class="caveat-brush-regular">Elegí tus entradas:</h2>
+        <label for="fecha">Fecha</label>
+        <input type="date" name="fecha" id="fecha">
+        <label for="cantidad">Cantidad de entradas:</label>
+        <select name="cantidad" id="cantidad">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+        <button type="submit" class="caveat-brush-regular">Continuar a pago</button>
       </form>
+
     </main>
     <footer>
       <div>

@@ -1,0 +1,16 @@
+.contenedor-fechas {
+    margin: 0 2rem;
+}
+
+.contenedor-fechas img {
+    border: 4px solid white;
+    border-radius: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+.formulario h2 {
+    text-align: center;
+    color:black;
+    margin-bottom: 0;
+}

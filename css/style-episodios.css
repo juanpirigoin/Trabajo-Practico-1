@@ -1,0 +1,15 @@
+.seccion-episodios h2, .seccion-episodios h1 {
+    color:white;
+}
+
+
+.carousel-item iframe {
+    margin: 0 auto;
+    width:75%;
+    aspect-ratio: 16 / 9;
+}  
+
+ul {
+    margin: 0 !important;
+    padding-left: 0 !important;
+}

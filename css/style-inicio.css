@@ -12,8 +12,7 @@ header {
     width: 100%;
 }
 
-body {
-   /* background-color: rgb(0, 0, 0); */
+body {   
    background-image: url('Gemini_Generated_Image_rf7kjvrf7kjvrf7k.png');
    background-color: rgba(0, 0, 0, 0.842);
 }
@@ -25,11 +24,10 @@ nav {
     background-color: rgba(0, 0, 0, 0.753);
 }
 
-.navegador, .menu , .iconos
+.iconos
 {
     display: flex;
-    /* justify-content: space-between; si lo pongo no cambia nada*/
-    gap: 20px;
+    gap: 1rem;
     align-items: center;
 
 } 
@@ -41,15 +39,15 @@ nav ul li {
   padding: 3px 6px;
 }
 
-nav ul li a {    
+nav ul li a, .seccion-videos a {    
     text-decoration: none;
     color: white;
     text-align: center;
 }
 
- nav div a {    
+ nav div a,  .contenedor-novedades a {    
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: white;
     text-align: center;
  }
 nav ul li:hover {
@@ -79,9 +77,6 @@ i {
     border-radius: 10px;
     padding: 3px 10px;
 }
-.login a {
-    color: white;
-}
 
 #banner {
     width: 100%;
@@ -93,8 +88,6 @@ section {
 
 h1, h2, p {
     color: white;
-    margin-bottom: 40px;
-    margin-top: 40px;
 }
 
 h1 {
@@ -104,39 +97,42 @@ h1 {
 
 h2 {
     font-size: 30px;
-    margin-left: 16px;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
 }
 
 .contenedor-novedades {
     display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    height: 400px;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-content: center;
+    align-items: center;
+    /* height: 400px; */
+    border: 4px solid white;
+    border-radius: 40px;
+    margin: 0 2rem;
+    padding: 2rem 2rem;
     background-color:rgba(115, 34, 190, 0.164);
-    margin: 0 30px ;
-    padding: 30px;
-    border-radius: 20px;
-    margin-bottom: 20px;
+
 }
 
 .contenedor-novedades img {
-    border-radius: 15px;
+    width: auto;
+    height: 400px;
+    border-radius: 20px;
+    margin: auto;
 }
 
 .contenedor-novedades div {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 1rem;
 }
 
- .contenedor-novedades div button {
-    align-self: center;
-    font-size: 18px;
-    padding: 8px 20px;
-    border-radius: 10px;
-    background-color: crimson;
-    border: none;
-}
+ .contenedor-novedades div div {
+    margin: auto;
+} 
 .caveat-brush-regular {
   font-family: "Caveat Brush", cursive;
   font-weight: 400;
@@ -147,7 +143,7 @@ h2 {
 .contenedor-videos {
     display: flex;
     justify-content: space-evenly;
-    padding: 0 30px;
+    padding: 0 2rem;
     gap: 30px;
 }
 
@@ -159,13 +155,18 @@ h2 {
 .contenedor-videos div iframe {
    width: 100%;
    height: 100%;
-   border-radius: 30px;
+   border-radius: 20px;
    box-shadow: 5px 5px 10px #a7a7cf;
    transition: transform 0.3s ease;
 }
 
 .contenedor-videos div iframe:hover {
         transform: scale(1.05);
+}
+
+.seccion-videos p {
+  margin: 1rem auto;
+  text-align: center;
 }
 
 footer {
