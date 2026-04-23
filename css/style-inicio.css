@@ -10,11 +10,12 @@ header {
     position: sticky;
     top: 0;
     width: 100%;
+    z-index: 1000;
 }
 
 body {   
-   background-image: url('Gemini_Generated_Image_rf7kjvrf7kjvrf7k.png');
-   background-color: rgba(0, 0, 0, 0.842);
+    background-image: url('../imagenes/fondo-oscuro.png');
+    background-color: rgba(0, 0, 0, 0.842);
 }
 
 nav {
@@ -83,7 +84,7 @@ i {
 }
 
 section {
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
 }
 
 h1, h2, p {
@@ -112,7 +113,8 @@ h2 {
     border-radius: 40px;
     margin: 0 2rem;
     padding: 2rem 2rem;
-    background-color:rgba(115, 34, 190, 0.164);
+    /* background-color:rgba(115, 34, 190, 0.164); */
+    background-image: url('../imagenes/fondo limpio.png');
 
 }
 
@@ -144,7 +146,7 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     padding: 0 2rem;
-    gap: 30px;
+    gap: 2rem;
 }
 
 .contenedor-videos div {
@@ -175,9 +177,7 @@ footer {
     margin-top: 40px;
 }
 footer div{
-    display: flex;
-    justify-content: space-between;
-    
+    display: flex;    
 }
 
 footer div img {
@@ -186,20 +186,16 @@ footer div img {
     border-radius: 30px;
 }
 
-footer div:last-child {
+.iconos-y-derechos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
-.links {
-    margin-left: 60px;
+.derechos, .iconos {
+    justify-content: center;
 }
 
-.links a {
-     text-decoration: none;
-    color: white;
-}
 
-.links p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
+

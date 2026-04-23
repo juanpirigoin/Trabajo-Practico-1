@@ -1,7 +1,12 @@
 .seccion-episodios h2, .seccion-episodios h1 {
     color:white;
+    margin-bottom: 2rem;
 }
 
+.seccion-episodios h1 {
+    margin-top: 1rem;
+    font-size: 50px;
+}
 
 .carousel-item iframe {
     margin: 0 auto;
@@ -13,3 +18,5 @@ ul {
     margin: 0 !important;
     padding-left: 0 !important;
 }
+
+/* todas estas modificaciones las hice porque bootstrap se metio en todos lados  */
