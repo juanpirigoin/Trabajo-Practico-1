@@ -1,7 +1,7 @@
 
 main div p {
     font-size: 20px;
-    margin: 0 3rem;
+    margin: 0 1rem;
 }
 
 .contenedor-miembros {
@@ -73,3 +73,59 @@ h3 {
 .galeria-grid img:hover{
     transform: scale(1.05)
 }
+
+@media (max-width: 480px) {
+    .miembro {
+        flex-direction: column;
+    }
+
+    .miembro img {
+        width: 100%;
+        height: auto;
+    }
+
+    .galeria-grid {
+        padding: 1rem;
+    }
+
+    .contenedor-miembros {
+        padding: 0 1rem;
+    }
+    
+    .vista-portrait {
+        display: flex;
+    }
+    .vista-landscape {
+        display: none;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .miembro {
+        flex-direction: column;
+    }
+
+    .miembro img {
+        width: 70%;
+        height: auto;
+       
+    }
+
+    .galeria-grid {
+        padding: 2rem;
+    }
+
+    .contenedor-miembros {
+        padding: 0 2rem;
+    }
+    
+    .vista-portrait {
+        display: flex;
+    }
+    .vista-landscape {
+        display: none;
+    }
+
+}
+

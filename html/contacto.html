@@ -40,6 +40,11 @@
     </header>
     <main>
       <img
+        id="banner2"
+        src="../imagenes/aislados-el-podcast.jpeg"
+        alt="banner-aislados"
+      />
+      <img
         id="banner"
         src="..\imagenes\asilados banner.jpg"
         alt="banner-aislados"
@@ -48,14 +53,59 @@
       <form action="">
         <div class="formulario caveat-brush-regular">
           <label for="nombre">Nombre</label>
-          <input type="text" name="nombre" id="nombre" placeholder="Juan Perez" required/>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Juan Perez"
+            required
+          />
           <label for="email">Email</label>
-          <input type="email" name="email" id="email" placeholder="juanperz@mail.com" required/>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="juanperz@mail.com"
+            required
+          />
+          <label for="telefono">Teléfono</label>
+          <input
+            type="tel"
+            name="telefono"
+            id="telefono"
+            placeholder="02233242355"
+            required
+          />
           <label for="asunto">Asunto</label>
-          <input type="text" name="asunto" id="asunto" required/>
+          <input type="text" name="asunto" id="asunto" required />
           <label for="mensaje">Mensaje</label>
-          <textarea name="mensaje" id="mensaje" rows="8" cols="40" required></textarea>
-          <button type="submit" class="caveat-brush-regular">Enviar</button>
+          <textarea
+            name="mensaje"
+            id="mensaje"
+            rows="8"
+            cols="40"
+            placeholder="Ingresa tu mensaje"
+            required
+          ></textarea>
+          <label>Contanos más acerca de vos:</label>
+          <div>
+            <div>
+              <input type="checkbox" name="informacion1" id="informacion1" />
+            <label for="informacion1">Escuchas el podcast</label>
+            </div>
+            <div>
+              <input type="checkbox" name="informacion2" id="informacion2" />
+            <label for="informacion2">Nos viste en vivo</label>
+            </div>
+            <div>
+              <input type="checkbox" name="informacion3" id="informacion3" />
+            <label for="informacion3">Nos seguís en nuestras redes</label>
+            </div>
+          </div>
+          <div class="botones">
+            <button type="submit" class="caveat-brush-regular">Enviar</button>
+            <button type="reset" class="caveat-brush-regular">Borrar</button>
+          </div>
         </div>
       </form>
     </main>
@@ -81,7 +131,9 @@
             ></a>
           </div>
           <div class="derechos">
-            <p>© 2026 Aislados El Podcast. Todos los derechos reservados.</p>
+            <p class="caveat-brush-regular">
+              © 2026 Aislados El Podcast. Todos los derechos reservados.
+            </p>
           </div>
         </div>
       </div>

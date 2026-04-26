@@ -27,9 +27,31 @@ form input, form textarea {
     margin-bottom: 20px;
     padding: 3px;
 }
-
+.formulario div div input{
+    margin-left: 1rem;
+    margin-bottom: 0;
+ }
+.formulario label {
+    margin-bottom: 0.5rem;
+}
 
 form button {
-    margin: 20px auto;
+    margin: 20px 0;
     padding: 5px 15px;
 }
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+/* 
+no hizo falta porque se ajusto con los media queries de style-inicio y style-entradas :)
+@media (max-width: 480px) {
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    
+}
+ */
